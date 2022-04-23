@@ -44,9 +44,6 @@ public class RainCanvas extends Canvas implements Runnable {
         this.setBackground(Color.BLACK);
         this.setSize(width, height);
         this.setVisible(true);
-    }
-
-    public void startRain() {
         new Thread(this).start();
     }
 
