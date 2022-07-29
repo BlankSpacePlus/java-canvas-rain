@@ -7,6 +7,9 @@ import java.awt.Graphics;
 import java.awt.Image;
 import java.util.Random;
 
+/**
+ * 字符雨Canvas实现类
+ */
 public class RainCanvas extends Canvas implements Runnable {
 
     private static final long serialVersionUID = 1L;
@@ -79,8 +82,8 @@ public class RainCanvas extends Canvas implements Runnable {
     @Override
     public void run() {
         while (true) {
-            drawRain();
-            repaint();
+            this.drawRain();
+            this.repaint();
             try {
                 Thread.sleep(50);
             } catch (InterruptedException e) {
