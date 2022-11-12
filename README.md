@@ -1,5 +1,7 @@
 # 黑客帝国字符雨模仿-Java-Swing-Canvas实现
 
+[![Build Status](https://app.travis-ci.com/BlankSpacePlus/java-canvas-rain.svg?branch=master)](https://app.travis-ci.com/BlankSpacePlus/java-canvas-rain)
+
 ![](images/demo.png)
 
 JFrame三种窗口最大化方法：
